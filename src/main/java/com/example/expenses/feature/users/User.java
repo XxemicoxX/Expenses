@@ -2,7 +2,6 @@ package com.example.expenses.feature.users;
 
 import com.example.expenses.util.RoleSystem;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
