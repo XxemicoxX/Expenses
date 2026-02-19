@@ -2,6 +2,9 @@ package com.example.expenses.feature.users;
 
 import com.example.expenses.util.RoleSystem;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
 
 public record UserWriterDTO(
     Long id,
