@@ -1,5 +1,6 @@
 package com.example.expenses.feature.categories;
 
-public interface CategorieRepository {
+@Repository
+public interface CategorieRepository extends JpaRepository<Categorie, Long>{
     
 }
