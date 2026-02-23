@@ -1,7 +1,9 @@
 package com.example.expenses.feature.categories;
 
+import jakarta.validation.constraints.NotBlank;
+
 public record CategorieWriterDTO(
-    Logn id,
+    Long id,
     @NotBlank(message = "Debe ingresar el nombre")
     String name,
     @NotBlank(message = "Ingrese una descripcion breve")
