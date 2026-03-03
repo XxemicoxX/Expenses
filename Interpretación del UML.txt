@@ -1,0 +1,45 @@
+Spent (Gasto)
+id_spent
+id_user
+name
+amount (monto del gasto)
+description (detalle del gasto)
+id_payment_method (efectivo, tarjeta, Yape, Plin, etc.)
+id_category
+date
+hour
+
+Income (Ingresos)
+id_income (PK)
+id_user (FK)
+amount
+source (sueldo, freelance, negocio)
+date (Día)
+description
+
+PaymentMethod (Método de Pago)
+id_payment_method
+name
+type (efectivo, tarjeta, billetera digital)
+
+REPORTES
+Gastos por categoría
+Gastor por mes
+Comparación ingresos vs gastos
+Gráficos (pie, barras)
+
+PROXIMAMENTE
+Notification (Notificaciones)
+id_notification
+id_user
+message
+type
+date
+read
+
+AuditLog (Historial / Para saber qué cambió un usuario.)
+id_log
+id_user
+action
+entity
+date
